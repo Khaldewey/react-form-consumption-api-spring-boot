@@ -1,0 +1,55 @@
+form {
+    color: #007bff;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+} 
+
+form h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 22px;
+}
+
+/* Estilo dos labels */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilo dos inputs e textarea */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Estilo do botão */
+form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover do botão */
+form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
